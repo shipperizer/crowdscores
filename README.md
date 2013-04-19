@@ -25,7 +25,7 @@ contains only one method:
 
 ```python
 class SingleMethodList(object):
-    
+
     def get(self, index):
         """ Returns the list item at `index`, otherwise returns None. """
         ...
@@ -33,9 +33,9 @@ class SingleMethodList(object):
 
 You are required to calculate the length of this list, but due to immense
 beaurocratic restrictions at OmniCorp, you are not allowed to modify the interface
-of this class and you have to use it as is. 
+of this class and you have to use it as is.
 
-For this task you need to write a function `list_length(single_method_list)` that takes 
+For this task you need to write a function `list_length(single_method_list)` that takes
 a `SingleMethodList` instance and returns its length. Feel free to create your
 own dummy implementation of `SingleMethodList` for your tests.
 
@@ -53,14 +53,9 @@ For example, this playlist is valid:
 
 So, given any starting and ending song, create a playlist that connects the two. For example: 'Island in the Sun' to 'Around the World'.
 
-For extra credit, create the shortest playlist that connects the two.
+For extra credit, create the shortest playlist (in terms of duration!) that connects the two.
 
-For more extra credit, create a playlist of a specific duration (say, 45 minutes). This would be useful to fill a specific timeslot on the radio, for example.
-
-For super much extra credit, come up with a challenging problem and a thrilling solution for a really dazzling display of your talent.
-
-
-Your data set lives in song-library.json and should be self-describing.
+Your data set lives in `song-library.json` and should be self-describing.
 
 Please include an analysis of the data structures and algorithms you chose, with a brief discussion of any alternative solutions you discarded and/or problems you faced and solved.
 
