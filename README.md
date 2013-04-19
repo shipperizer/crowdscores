@@ -18,7 +18,26 @@ Given a stream of text on stdin, report on stdout the number of times each word 
 You will find a test case in `001-counting-words/test_count_words.py`. `cd` into the directory and run it with `py.test`.
 
 
-## Problem 2:
+## Problem 2: List Length
+
+You are given a list implementation, aptly named `SingleMethodList`. This list
+contains only one method:
+
+```python
+class SingleMethodList(object):
+    
+    def get(self, index):
+        """ Returns the list item at `index`, otherwise returns None. """
+        ...
+```
+
+You are required to calculate the length of this list, but due to immense
+beaurocratic restrictions at OmniCorp, you are not allowed to modify the interface
+of this class and you have to use it as is. 
+
+For this task you need to write a function `list_length(single_method_list)` that takes 
+a `SingleMethodList` instance and returns its length. Feel free to create your
+own dummy implementation of `SingleMethodList` for your tests.
 
 
 ## Problem 3: Chaining Names
