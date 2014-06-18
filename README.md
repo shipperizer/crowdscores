@@ -2,7 +2,7 @@
 
 Hello, intrepid hacker! We have prepared a set of challenges for you to complete in your own time.
 
-To get started, fork this repo and clone your fork. Start hacking away at the problems and please commit and push often so that we can follow your progress.
+To get started just use this repo as your origin. Start hacking away at the problems and commit back here. Please commit and push often so that we can follow your progress.
 
 The first problem comes with test cases, which you can use and extend. For the following problems you are expected to write your own tests.
 
