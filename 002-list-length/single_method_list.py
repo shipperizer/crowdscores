@@ -1,6 +1,6 @@
 class SingleMethodList(object):
     def __init__(self, l):
-       self._list = l
+        self._list = l
 
     def get(self, index):
         try:
