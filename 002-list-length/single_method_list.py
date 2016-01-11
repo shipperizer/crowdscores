@@ -7,7 +7,3 @@ class SingleMethodList(object):
             return self._list[index]
         except IndexError:
             return None
-
-    def __len__(self):
-        # implement __len__ to allow for testing
-        return len(self._list)      
