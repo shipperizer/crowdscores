@@ -10,6 +10,17 @@ follow your progress.
 The first problem comes with test cases, which you can use and extend. For the
 following problems you are expected to write your own tests.
 
+We will assess your solutions according to the following criteria
+
++ Accuracy: Does your code produce the correct answers?
++ Readability: Will we be able to easily understand how your code works?
++ Style: Does your code comply with
+[PEP8](https://www.python.org/dev/peps/pep-0008/)?
++ Performance: Does your code run as quickly as possible, even with large
+inputs
++ Quality of tests: Do your test prove that your code works, in a way that is
+easy for us to understand?
+
 You should be able to finish the problems below in around three hours.
 
 
