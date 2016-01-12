@@ -21,5 +21,5 @@ def test_list_of_different_objects():
     class TestObject:
         def __init__(self):
             pass
-    s_list = SingleMethodList([0, 1, "two", TestObject(), [1,2,3]])
+    s_list = SingleMethodList([0, 1, "two", TestObject(), [1, 2, 3]])
     assert len(s_list._list) == list_length(s_list)
