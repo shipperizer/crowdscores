@@ -10,7 +10,7 @@ follow your progress.
 The first problem comes with test cases, which you can use and extend. For the
 following problems you are expected to write your own tests.
 
-You should be able to finish the problems below in less than two hours.
+You should be able to finish the problems below in around three hours.
 
 
 ## Problem 1: Counting Words
