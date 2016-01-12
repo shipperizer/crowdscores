@@ -43,8 +43,7 @@ beaurocratic restrictions at OmniCorp, you are not allowed to modify the
 interface of this class and you have to use it as is.
 
 For this task you need to write a function `list_length(single_method_list)`
-that takes a `SingleMethodList` instance and returns its length. Feel free to
-create your own dummy implementation of `SingleMethodList` for your tests. You
+that takes a `SingleMethodList` instance and returns its length. You
 may assume that no list will contain `None` as an item.
 
 
