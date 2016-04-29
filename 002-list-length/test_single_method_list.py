@@ -13,7 +13,12 @@ def test_single_item_list():
 
 
 def test_large_list():
-    s_list = SingleMethodList([i for i in xrange(0, 100000)])
+    s_list = SingleMethodList([i for i in range(0, 100000)])
+    assert len(s_list._list) == list_length(s_list)
+
+
+def test_huge_list():
+    s_list = SingleMethodList([i for i in range(0, 10000000)])
     assert len(s_list._list) == list_length(s_list)
 
 
