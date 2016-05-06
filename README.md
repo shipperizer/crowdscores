@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/shipperizer/crowdscores.svg?branch=master)](https://travis-ci.org/shipperizer/crowdscores)
+
 # Programming Challenge
 
 Hello, intrepid hacker! We have prepared a set of challenges for you to complete
