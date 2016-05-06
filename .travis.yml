@@ -3,10 +3,10 @@ python:
   - "3.2"
   - "3.3"
   - "3.4"
-install: "pip install -r requirements.txt"
+install: "make install"
 os:
  - linux
 notifications:
    email: false
 script:
-  - py.test */test_*
+  - "make test"
